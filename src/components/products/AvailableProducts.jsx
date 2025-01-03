@@ -66,7 +66,7 @@ const AvailableProducts = () => {
 							<div className='flex flex-col items-end'>
 								<h3 className='text-lg font-semibold text-white'>{product.name}</h3>
 								<p className='text-sm text-brown-400'>{product.category}</p>
-								<p className='text-md text-brown-400 font-bold'>${product.price.toFixed(2)}</p>
+								<p className='text-md text-brown-400 font-bold'>Rs.{product.price.toFixed(2)}</p>
 							</div>
 						</div>
 						<div className='flex justify-between'>
