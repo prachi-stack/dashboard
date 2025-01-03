@@ -108,7 +108,7 @@ const PaymentsTransactionsPage = () => {
               {statusIcon(transaction.status)}
             </div>
             <p className="text-brown-300">Date: {transaction.date}</p>
-            <p className="text-brown-300">Amount: ${transaction.amount.toFixed(2)}</p>
+            <p className="text-brown-300">Amount: Rs.{transaction.amount.toFixed(2)}</p>
             <p className="text-brown-300">Payment Method: {transaction.method}</p>
 
             <div
